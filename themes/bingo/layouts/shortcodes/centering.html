@@ -1,0 +1,5 @@
+<div  {{ with .Get "class" }}class="{{ . }}"{{ end }} style="text-align: center"> 
+  {{ with .Get "link" }}<a href="{{ . }}">{{ end }}
+    {{ .Inner }} 
+  {{ if .Get "link" }}</a>{{ end }}
+</div>

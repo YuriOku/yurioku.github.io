@@ -1,0 +1,46 @@
+{{/* layouts/shortcodes/video.html - usage:
+  {{< video src="path/to/video.mp4" type="video/mp4" poster="img.jpg" controls="true" autoplay="false" loop="false" muted="false" playsinline="true" width="640" height="360" class="my-video" >}}Caption or markdown{{< /video >}}
+*/}}
+
+{{ $src := .Get "src" }}
+{{ if not $src }}{{ errorf "video shortcode: missing \"src\" parameter" }}{{ end }}
+
+{{ $type := .Get "type" }}
+{{ $poster := .Get "poster" }}
+{{ $width := .Get "width" }}
+{{ $height := .Get "height" }}
+{{ $class := default "hugo-video" (.Get "class") }}
+
+{{ $controls := eq (lower (default "true" (.Get "controls"))) "true" }}
+{{ $autoplay := eq (lower (default "false" (.Get "autoplay"))) "true" }}
+{{ $loop := eq (lower (default "false" (.Get "loop"))) "true" }}
+{{ $muted := eq (lower (default "false" (.Get "muted"))) "true" }}
+{{ $playsinline := eq (lower (default "false" (.Get "playsinline"))) "true" }}
+
+<figure class="{{ $class }}">
+  <video
+    {{ if $poster }}poster="{{ $poster }}"{{ end }}
+    {{ if $width }}width="{{ $width }}"{{ end }}
+    {{ if $height }}height="{{ $height }}"{{ end }}
+    {{ if $controls }}controls{{ end }}
+    {{ if $autoplay }}autoplay{{ end }}
+    {{ if $loop }}loop{{ end }}
+    {{ if $muted }}muted{{ end }}
+    {{ if $playsinline }}playsinline{{ end }}
+  >
+    <source src="{{ $src }}"{{ if $type }} type="{{ $type }}"{{ end }}>
+    {{/* allow multiple sources via comma-separated list in "src" if desired */}}
+    {{ with split $src "," }}
+      {{ range $i, $s := . }}
+        {{ if ne $i 0 }}
+          <source src="{{ $s | trim }}"{{ if $type }} type="{{ $type }}"{{ end }}>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    Your browser does not support the video tag.
+  </video>
+
+  {{ with .Inner }}
+    <figcaption>{{ . | markdownify }}</figcaption>
+  {{ end }}
+</figure>

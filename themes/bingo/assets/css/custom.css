@@ -1,0 +1,166 @@
+/* custom.css
+   Purpose: conservative, minimal styling additions to
+   - provide a fullscreen landing video (scoped to .home)
+   - improve typography (serif body, sans headings)
+   - enforce narrow, centered content on non-home pages
+   Comments: Keep overrides minimal and targeted using body.home and body:not(.home)
+*/
+
+:root {
+  /* Minimal, single-accent color system */
+  --bg: #fbfbfb; /* near-white */
+  --text: #111111; /* near-black */
+  --accent: #1976d2; /* single accent color for links and emphasis */
+}
+
+/* Typography: serif for body text (better for long reading), sans for headings */
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'STIX Two Text', Georgia, 'Times New Roman', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.65;
+  font-size: 18px;
+}
+
+/* Headings use the loaded sans font to provide clear hierarchy */
+h1, h2, h3, h4, h5 {
+  font-family: 'IBM Plex Sans', system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  margin-top: 0.6em;
+  margin-bottom: 0.4em;
+  line-height: 1.2;
+}
+
+h1 { font-size: 2.1rem; font-weight: 600; }
+h2 { font-size: 1.45rem; font-weight: 600; }
+h3 { font-size: 1.2rem; font-weight: 600; }
+
+p, li { font-size: 1rem; }
+
+/* Keep inline code and equations readable */
+code, kbd, pre, samp {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+}
+
+/* Links: use single accent color, no decorations */
+a { color: var(--accent); text-decoration: none; }
+a:focus, a:hover { opacity: 0.8; }
+
+/* Narrow content on non-home pages to improve readability */
+body:not(.home) .container {
+  max-width: 55rem; /* ~880px */
+  background: transparent; /* keep existing background behavior */
+}
+
+/* Ensure article/post content is centered and constrained */
+body:not(.home) #content,
+body:not(.home) .post-content {
+  max-width: 55rem;
+  margin-left: auto;
+  margin-right: auto;
+  background: transparent;
+}
+
+/* ===== Landing (homepage) styles - scoped under body.home ===== */
+/* Make the video fixed to the viewport so it never moves while the page scrolls.
+   Keep a hero spacer of 100vh so the initial hero content overlays the video
+   and scrolls away as the user scrolls down. */
+body.home .hero-video {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* act as a spacer so content below is pushed down */
+  overflow: visible;
+  display: block;
+}
+
+/* Video fixed in the viewport as the background */
+body.home .landing-video {
+  /* Fixed video behind everything; use negative z so it's purely background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  z-index: -1; /* behind page content and header */
+  pointer-events: none;
+}
+
+/* Overlay only over the hero spacer (not fixed) so it scrolls away with the hero content */
+body.home .hero-overlay {
+    position: absolute; /* positioned inside .hero-video spacer */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; /* ensure overlay always matches the container height */
+    background: rgba(0, 0, 0, 0.50); 
+    z-index: 0; /* above the video (-1) but below hero content and header */
+    pointer-events: none;
+}
+
+/* Hero content sits above overlay within the hero spacer and scrolls normally */
+/* Hero content area (title) */
+body.home .hero-content {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  color: #fbfbfb;
+  padding: 4vh 1rem; /* visual centering for title */
+  max-width: 80ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body.home .hero-body {
+    position: relative;
+    z-index: 3;
+    color: #fbfbfb; /* brighter, pure white for readability */
+    padding: 0 2rem 4rem; /* provide breathing room for the page content */
+    background: transparent; /* keep movie visible */
+    text-shadow: 0 1px 2px rgba(0,0,0,0.35); /* subtle lift against the video */
+}
+
+body.home .hero-title {
+  font-size: 2.4rem;
+  margin: 0 0 0.4rem 0;
+  font-weight: 700;
+}
+
+body.home .hero-subtitle {
+  margin: 0;
+  font-size: 1.05rem;
+  opacity: 0.95;
+}
+
+/* If video unavailable, ensure a pleasant fallback color */
+/* Prefer transparent fallback so the background video is visible through overlays */
+body.home .hero-video { background: transparent; }
+
+/* On small screens, reduce hero text size and ensure video doesn't dominate perceived performance */
+@media (max-width: 600px) {
+  body.home .hero-title { font-size: 1.6rem; }
+  body.home .hero-subtitle { font-size: 0.95rem; }
+  body.home .landing-video { transform: none; }
+}
+
+/* Keep the rest of the content readable below the fold */
+/* Remove extra top margin; page content is now inside hero-body for homepage */
+body.home #content { margin-top: 0; }
+
+/* Minimal adjustments to breadcrumb color to use accent */
+/* .breadcrumb { background: var(--accent); } */
+/* Ensure header/menu sits above the hero overlay */
+header { position: relative; z-index: 5; }
+.breadcrumb a { color: white; }
+
+/* Homepage-specific: ensure all headings are white when over the background video */
+body.home h1,
+body.home h2,
+body.home h3,
+body.home h4,
+body.home h5 {
+  color: #fbfbfb;
+}

@@ -1,0 +1,45 @@
+baseURL = "https://www.yurioku.com"
+languageCode = "en-us"
+title = "Yuri Oku's Homepage"
+theme = "bingo"
+
+googleAnalytics = "G-YG0VSNT7RL"
+
+[params]
+  research = "Computational Astrophysics"
+  affiliation = "Zhejiang University"
+
+[markup]
+	defaultMarkupHandler = "goldmark"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
+[languages]
+  [languages.en]
+    languageName = "English"
+  
+  # Main menu
+[menu]
+  [[languages.en.menu.main]]
+    identifier = "home"
+    url = "/"
+    name = "Home"
+    weight = 1
+  [[languages.en.menu.main]]
+    identifier = "about"
+    url = "/about/"
+    name = "About"
+    weight = 2
+  [[languages.en.menu.main]]
+    identifier = "research"
+    url = "/research/"
+    name = "Research"
+    weight = 3
+  [[languages.en.menu.main]]
+    identifier = "presentations"
+    url = "/presentations/"
+    name = "Presentations"
+    weight = 4
+
+

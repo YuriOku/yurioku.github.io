@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Top on Yuri Oku&#39;s Homepage</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Top on Yuri Oku&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Curriculum Vitae PDF&#xA;Personal Name Oku, Yuri 名前 奥 裕理 (おく ゆうり) Status Postdoctral Research Associate Affiliation Center for Cosmology and Computational Astrophysics (C3A), Institute for Advanced Study in Physics, Zhejiang University Email yuri.oku.astro[at]gmail.com oku[at]zju.edu.cn oku[at]astro-osaka.jp Address 38 Zheda Road, Hangzhou, Zhejiang, 310027, PR China Links Github, Google Scholar, ORCID, Scopus, YouTube Employment Center for Cosmology and Computational Astrophysics, Institute for Advanced Study in Physics, Zhejiang University&#xA;Postdoctral Research Associate, 2024/7 - present</description>
+    </item>
+    <item>
+      <title>Presentations</title>
+      <link>http://localhost:1313/presentations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/presentations/</guid>
+      <description>International conferences &#34;IGM Metal Enrichment in CROCODILE&#34; Oku, Y., Nagamine, K., Cosmology and galaxy astrophysics with simulations and machine learning 2024, Flatiron Institute, CCA, 2024/12/09-12 (oral) &#34;IGM Metal Enrichment in CROCODILE Simulation&#34;, Oku, Y., AGORA in Asia + 5th Numerical Galaxy Formation Meeting in Korea, Seoul National University (attending remotely), 2024/05/07 (oral) &#34;Osaka Feedback Model II: Modeling Supernova Feedback Based on High-Resolution Simulations&#34;, Oku, Y., Tomida,K., Nagamine, K., Shimizu, I.</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/research/</guid>
+      <description>Publications My Publications - SciX Library&#xA;Research I am studying galaxy formation using numerical simulations. My research field ranges from the scale of interstellar medium to the large-scale structure of the universe. Left: Superbubble formed by multiple supernova explosions simulated with Athena&amp;#43;&amp;#43; (Stone et al. 2020); Center: Milky-Way-mass isolated galaxy simulated with GADGET3-Osaka (Shimizu et al. 2019, Oku et al. 2022); Right: The formation of the large scale structure of the universe simulated with GADGET3-Osaka Cosmological Hydrodynamical Simulations (Oku and Nagamine submitted) Visit CROCODILE simulation homepage for more information.</description>
+    </item>
+  </channel>
+</rss>

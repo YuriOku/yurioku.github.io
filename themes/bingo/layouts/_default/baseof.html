@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--
+    Template notes:
+    - This is the theme-level base template. It includes `partials/head.html`,
+        renders a `header` partial, a `.container` wrapper and a `main` block.
+    - Pages inject their content into the `main` block via templates like `home.html`,
+        `_default/single.html`, and `_default/list.html`.
+    - We add a conditional `home` class on <body> to scope homepage-only styles.
+-->
+<html lang="{{ .Site.LanguageCode }}">
+    {{- partial "head.html" . -}}
+    <body{{ if .IsHome }} class="home"{{ end }}>
+        {{- partial "header.html" . -}}
+        <div class="container">
+        {{- block "main" . }}{{- end }}
+        </div>
+        {{- partial "footer.html" . -}}
+        {{- partialCached "scripts.html" . -}}
+        {{- template "_internal/google_analytics.html" . -}}
+    </body>
+</html>

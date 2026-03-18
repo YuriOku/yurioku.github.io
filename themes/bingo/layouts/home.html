@@ -1,0 +1,23 @@
+{{ define "main" }}
+<main id="home">
+    <!-- Landing video (homepage only). Video file expected at /static/video/landing.mp4 -->
+    <div class="hero-video">
+        <video class="landing-video" autoplay muted loop playsinline preload="auto" poster="" aria-hidden="true">
+            <source src="https://www.yurioku.com/files/landing.mp4" type="video/mp4">
+        </video>
+        <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-content" role="banner">
+                <h1 class="hero-title">{{ .Site.Title }}</h1>
+                {{ $research := .Site.Params.research }}
+                {{ $affil := .Site.Params.affiliation }}
+
+                <p class="hero-subtitle">{{ if $research }}{{ $research }}{{ end }}{{ if and $research $affil }} · {{ end }}{{ if $affil }}{{ $affil }}{{ end }}</p>
+            </div>
+
+            <div class="hero-body">
+                {{ .Content }}
+            </div>
+    </div>
+
+</main>
+{{ end }}
