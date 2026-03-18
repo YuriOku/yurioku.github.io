@@ -7,7 +7,7 @@ googleAnalytics = "G-YG0VSNT7RL"
 
 [params]
   research = "Computational Astrophysics"
-  affiliation = "Zhejiang University"
+  affiliation = "The University of Osaka"
 
 [markup]
 	defaultMarkupHandler = "goldmark"

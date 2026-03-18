@@ -17,16 +17,19 @@ title: "About me"
 |:-----------:|:-----------|
 |Name | Oku, Yuri|
 |名前| 奥 裕理 (おく ゆうり)|
-|Status | Postdoctral Research Associate |
-|Affiliation | [Center for Cosmology and Computational Astrophysics (C3A)](https://astro.zju.edu.cn/asen/main.htm), <br> [Institute for Advanced Study in Physics](https://physics.zju.edu.cn/ces/list.htm), <br> [Zhejiang University](https://www.zju.edu.cn/) |
-|Email | yuri.oku.astro[at]gmail.com <br> oku[at]zju.edu.cn <br> oku[at]astro-osaka.jp |
-|Address| 38 Zheda Road, Hangzhou, Zhejiang, 310027, PR China |
-  |Links | [<span class="icon">Github</span><img class="icon" src="https://files.yurioku.com/icon/github.svg">](https://github.com/YuriOku), [<span class="icon">Google Scholar</span><img class="icon" src="https://files.yurioku.com/icon/google-scholar.svg">](https://scholar.google.co.jp/citations?user=Gf8vm28AAAAJ&hl=ja), [<span class="icon">ORCID</span><img class="icon" src="https://files.yurioku.com/icon/orcid.svg">](https://orcid.org/0000-0002-5712-6865), [<span class="icon">Scopus</span><img class="icon" src="https://files.yurioku.com/icon/scopus.svg">](https://www.scopus.com/authid/detail.uri?authorId=57216936867), [<span class="icon">YouTube</span><img class="icon" src="https://files.yurioku.com/icon/youtube.svg">](http://www.youtube.com/@yurioku_astro)|
+|Status | Specially Appointed Assistant Professor |
+|Affiliation | [Theoretical Astrophysics Group (OUTAP)](https://astro-osaka.jp), <br> [Department of Earth and Space Science](https://www.ess.sci.osaka-u.ac.jp/en), <br>[Graduate School of Science](https://www.sci.osaka-u.ac.jp/en), <br> [The University of Osaka](https://www.osaka-u.ac.jp/en) |
+|Email | yuri.oku.astro[at]gmail.com <br> oku[at]astro-osaka.jp |
+|Address| 1-1 Machikaneyama, Toyonaka, Osaka, 560-0043, Japan |
+|Links | [<span class="icon">Github</span><img class="icon" src="https://files.yurioku.com/icon/github.svg">](https://github.com/YuriOku), [<span class="icon">Google Scholar</span><img class="icon" src="https://files.yurioku.com/icon/google-scholar.svg">](https://scholar.google.co.jp/citations?user=Gf8vm28AAAAJ&hl=ja), [<span class="icon">ORCID</span><img class="icon" src="https://files.yurioku.com/icon/orcid.svg">](https://orcid.org/0000-0002-5712-6865), [<span class="icon">Scopus</span><img class="icon" src="https://files.yurioku.com/icon/scopus.svg">](https://www.scopus.com/authid/detail.uri?authorId=57216936867), [<span class="icon">YouTube</span><img class="icon" src="https://files.yurioku.com/icon/youtube.svg">](http://www.youtube.com/@yurioku_astro)|
 
 ## Employment
 
+<strong>[Theoretical Astrophysics Group](https://astro-osaka.jp), [Department of Earth and Space Science](https://www.ess.sci.osaka-u.ac.jp/en), [Graduate School of Science](https://www.sci.osaka-u.ac.jp/en), [The University of Osaka](https://www.osaka-u.ac.jp/en)</strong><br>
+Specially Appointed Assistant Professor, 2026/3 - present
+
 <strong>[Center for Cosmology and Computational Astrophysics](https://astro.zju.edu.cn/asen/main.htm), [Institute for Advanced Study in Physics](https://physics.zju.edu.cn/ces/list.htm), [Zhejiang University](https://www.zju.edu.cn/)</strong><br>
-Postdoctral Research Associate, 2024/7 - present
+Postdoctral Research Associate, 2024/7 - 2026/3
 
 <strong>[Center for Cosmology and Computational Astrophysics](https://astro.zju.edu.cn/asen/main.htm), [Institute for Advanced Study in Physics](https://physics.zju.edu.cn/ces/list.htm), [Zhejiang University](https://www.zju.edu.cn/)</strong><br>
 Visiting Researcher, 2024/4 - 2024/6
@@ -51,17 +54,35 @@ Bachelor of Liberal Arts, 2017/4 - 2019/3
 ## Research Interests
 
 - Galaxy formation and evolution
+- Circumgalactic Medium (CGM) / Intergalactic Medium (IGM)
+- Cosmic reionization
 - Supernova and AGN feedback
-- Galactic outflow
-- Metal enrichment history of CGM and IGM
 - Numerical simulation
 
 ## Research Projects and Collaborations
 
-- [AGORA project](https://sites.google.com/site/santacruzcomparisonproject/) --- as a member of GADGET4-Osaka and GAMER-2 code teams
-- [CAMELS project](https://camels.readthedocs.io/en/latest) --- as a member of GADGET4-Osaka code team
-- [CROCODILE simulation](https://sites.google.com/view/crocodilesimulation/home) --- as a core member. This is a large-scale cosmological simulation project stemming from my Ph.D. research.
-- [Subaru Prime Focus Spectrograph](https://pfs.ipmu.jp/) --- as a member of Galaxy Evolution working team
+- [AGORA project](https://sites.google.com/site/santacruzcomparisonproject/)
+- [CAMELS project](https://camels.readthedocs.io/en/latest)
+- [CROCODILE simulation](https://sites.google.com/view/crocodilesimulation/home)
+- [Subaru Prime Focus Spectrograph](https://pfs.ipmu.jp/)
+- [The Three Hundred Project](https://www.the300-project.org/)
+
+{{< rawhtml >}}
+<div align="center">
+  <a href="https://sites.google.com/site/santacruzcomparisonproject/">
+    <img src="https://files.yurioku.com/logo_agora.png" width=40%>
+  </a>
+  <a href="https://camels.readthedocs.io/en/latest">
+    <img src="https://files.yurioku.com/logo_camels.jpg" width=15%>
+  </a>
+  <a href="https://sites.google.com/view/crocodilesimulation/home">
+    <img src="https://files.yurioku.com/logo_crocodile.png" width=40%>
+  </a>
+  <a href="https://the300-project.org/">
+    <img src="https://files.yurioku.com/logo_the300.jpg" width=30%>
+  </a>
+</div>
+{{< /rawhtml >}}
 
 ## Grants/Fellowship/Scholarship
 

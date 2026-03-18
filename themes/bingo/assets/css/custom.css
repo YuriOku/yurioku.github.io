@@ -95,7 +95,7 @@ body.home .hero-overlay {
     left: 0;
     right: 0;
     bottom: 0; /* ensure overlay always matches the container height */
-    background: rgba(0, 0, 0, 0.50); 
+    background: rgba(50, 50, 50, 0.85); 
     z-index: 0; /* above the video (-1) but below hero content and header */
     pointer-events: none;
 }
@@ -117,10 +117,11 @@ body.home .hero-content {
 body.home .hero-body {
     position: relative;
     z-index: 3;
-    color: #fbfbfb; /* brighter, pure white for readability */
+    color: #f0f0f0; /* brighter, pure white for readability */
     padding: 0 2rem 4rem; /* provide breathing room for the page content */
     background: transparent; /* keep movie visible */
     text-shadow: 0 1px 2px rgba(0,0,0,0.35); /* subtle lift against the video */
+    a { color: #c6d3ff; text-decoration: none; }
 }
 
 body.home .hero-title {
