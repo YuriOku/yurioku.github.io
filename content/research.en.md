@@ -10,7 +10,7 @@ title: "Research"
 
 I am studying galaxy formation using numerical simulations.
 My research field ranges from the scale of interstellar medium to the large-scale structure of the universe.
-{{< myimg src="https://www.yurioku.com/files/researchfield.png" title="Left: Superbubble formed by multiple supernova explosions simulated with Athena++ (Stone et al. 2020); Center: Milky-Way-mass isolated galaxy simulated with GADGET3-Osaka (Shimizu et al. 2019, Oku et al. 2022); Right: The formation of the large scale structure of the universe simulated with GADGET3-Osaka" width="100%" >}}
+{{< myimg src="https://files.yurioku.com/researchfield.png" title="Left: Superbubble formed by multiple supernova explosions simulated with Athena++ (Stone et al. 2020); Center: Milky-Way-mass isolated galaxy simulated with GADGET3-Osaka (Shimizu et al. 2019, Oku et al. 2022); Right: The formation of the large scale structure of the universe simulated with GADGET3-Osaka" width="100%" >}}
 
 ### Cosmological Hydrodynamical Simulations (Oku and Nagamine submitted)
 **Visit [CROCODILE simulation homepage](https://sites.google.com/view/crocodilesimulation/home) for more information.**
@@ -19,7 +19,7 @@ In our paper ["Osaka Feedback Model III: Cosmological Simulation CROCODILE"](htt
 Our CROCODILE simulation is executed using GADGET4-Osaka SPH code and incorpolates feedback from supernova (SN) and active galactic nuclei (AGN). 
 A key innovation in our SN feedback model is the integration of a metallicity- and redshift-dependent, top-heavy IMF, which enables a higher energy injection rate per unit stellar mass formed at high redshift.
 
-{{< video src="https://www.yurioku.com/files/24_CROCODILE_density.mp4" width="50%" >}}
+{{< video src="https://files.yurioku.com/24_CROCODILE_density.mp4" width="50%" >}}
 CROCODILE simulation: Density projection
 {{< /video >}}
 
@@ -28,7 +28,7 @@ The movie below shows the density-weighted metallicity projection of the CROCODI
 We find that the SN feedback is a key driver in the chemical enrichment of the IGM.
 Additionally, the AGN feedback creates metal-rich, bipolar outflows that extend and enrich the CGM and IGM over a few Mpc scales.
 
-{{< video src="https://www.yurioku.com/files/24_CROCODILE_metallicity.mp4" width="80%" >}}
+{{< video src="https://files.yurioku.com/24_CROCODILE_metallicity.mp4" width="80%" >}}
 CROCODILE simulation: Metallicity projection
 {{< /video >}}
 
@@ -39,6 +39,6 @@ The video below shows the density-weighted gas density, temperature, and metalli
 The Non-stochastic run also includes both kinetic and thermal feedback, but thermal feedback is not stochastic. Such a simple "thermal bomb" is known to be subjected to the "overcooling problem" due to the lack of the resolution to resolve the cooling mass.
 The SNII-kinetic and SNII-thermal runs are simulations with only kinetic and thermal feedback from Type II supernovae, and NoFB run is a simulation without feedback. In runs with kinetic feedback (Fidicial, Non-stochastic, and SNII-kinetic), the turbulence driven by kinetic feedback maintains their gas disks against gravitational collapse while the other galaxies become clumpy.
 
-{{< video src="https://www.yurioku.com/files/22_isogal_faceon.mp4" width="80%" >}} 
+{{< video src="https://files.yurioku.com/22_isogal_faceon.mp4" width="80%" >}} 
 Isolated galaxy simulations with different feedback models (face-on view) 
 {{< /video >}}

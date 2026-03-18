@@ -4,12 +4,12 @@ title: "About me"
 
 {{< rawhtml >}}
 <div align="center">
-  <img src="https://www.yurioku.com/files/yurioku.jpg" width=40%>
+  <img src="https://files.yurioku.com/yurioku.jpg" width=40%>
 </div>
 {{< /rawhtml >}}
 
 ## Curriculum Vitae
-[PDF](https://www.yurioku.com/files/My_Carriculum_Vitae.pdf)
+[PDF](https://files.yurioku.com/My_Carriculum_Vitae.pdf)
 
 ## Personal
 
@@ -21,7 +21,7 @@ title: "About me"
 |Affiliation | [Center for Cosmology and Computational Astrophysics (C3A)](https://astro.zju.edu.cn/asen/main.htm), <br> [Institute for Advanced Study in Physics](https://physics.zju.edu.cn/ces/list.htm), <br> [Zhejiang University](https://www.zju.edu.cn/) |
 |Email | yuri.oku.astro[at]gmail.com <br> oku[at]zju.edu.cn <br> oku[at]astro-osaka.jp |
 |Address| 38 Zheda Road, Hangzhou, Zhejiang, 310027, PR China |
-  |Links | [<span class="icon">Github</span><img class="icon" src="https://www.yurioku.com/files/icon/github.svg">](https://github.com/YuriOku), [<span class="icon">Google Scholar</span><img class="icon" src="https://www.yurioku.com/files/icon/google-scholar.svg">](https://scholar.google.co.jp/citations?user=Gf8vm28AAAAJ&hl=ja), [<span class="icon">ORCID</span><img class="icon" src="https://www.yurioku.com/files/icon/orcid.svg">](https://orcid.org/0000-0002-5712-6865), [<span class="icon">Scopus</span><img class="icon" src="https://www.yurioku.com/files/icon/scopus.svg">](https://www.scopus.com/authid/detail.uri?authorId=57216936867), [<span class="icon">YouTube</span><img class="icon" src="https://www.yurioku.com/files/icon/youtube.svg">](http://www.youtube.com/@yurioku_astro)|
+  |Links | [<span class="icon">Github</span><img class="icon" src="https://files.yurioku.com/icon/github.svg">](https://github.com/YuriOku), [<span class="icon">Google Scholar</span><img class="icon" src="https://files.yurioku.com/icon/google-scholar.svg">](https://scholar.google.co.jp/citations?user=Gf8vm28AAAAJ&hl=ja), [<span class="icon">ORCID</span><img class="icon" src="https://files.yurioku.com/icon/orcid.svg">](https://orcid.org/0000-0002-5712-6865), [<span class="icon">Scopus</span><img class="icon" src="https://files.yurioku.com/icon/scopus.svg">](https://www.scopus.com/authid/detail.uri?authorId=57216936867), [<span class="icon">YouTube</span><img class="icon" src="https://files.yurioku.com/icon/youtube.svg">](http://www.youtube.com/@yurioku_astro)|
 
 ## Employment
 

@@ -36,7 +36,7 @@ hugo
 
 ## Adding Images and Assets
 
-- Upload images and static files to the `public-files/` folder in the Fastmail file storage. Then reference them in your content using the URL format `https://www.yurioku.com/files/your-image.jpg`.
+- Upload images and static files to the `public-files/` folder in the Fastmail file storage. Then reference them in your content using the URL format `https://files.yurioku.com/your-image.jpg`.
 
 ## Theme and Styling
 
