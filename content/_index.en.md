@@ -3,7 +3,13 @@ title: "Top"
 ---
 
 ## NEWS
-- **2026/03/16** Joined the Theoretical Astrophysics Group at the University of Osaka as a specially appointed assistant professor.
+- **2026/06/08-12** Visiting Max Planck Institute for Astrophysics
+- **2026/06/01-05** Visiting Universidad Autónoma de Madrid
+- **2026/05/25-29** Joining AGORA in Europe, Lund University
+- **2026/05/18-22** Visiting Taiwan National University
+- **2026/04/06-10** LOC, [CAMELS+BP 2026](https://sites.google.com/view/camels-bp-2026/home)
+- **2026/04/01** Talk at the Keihan Astrophysics Meeting 2026 spring
+- **2026/03/16** Joined the Theoretical Astrophysics Group at the University of Osaka as a specially appointed assistant professor (ILR fellow).
 - **2025/11/12** Paper submitted: "[Recombination Clumping Factor of Physically Defined Intergalactic Medium at the Epoch of Reionization](https://arxiv.org/abs/2511.09364)" (Oku & Cen).
 - **2024/11/01** Paper published in ApJ: "[Osaka Feedback Model III: Cosmological Simulation CROCODILE](https://iopscience.iop.org/article/10.3847/1538-4357/ad77d3)" (Oku and Nagamine).
 - **2024/04** Joined the Center for Cosmology and Computational Astrophysics (C3A) at the Institute for Advanced Study in Physics of Zhejiang University as a postdoctoral researcher.

@@ -17,7 +17,7 @@ title: "About me"
 |:-----------:|:-----------|
 |Name | Oku, Yuri|
 |名前| 奥 裕理 (おく ゆうり)|
-|Status | Specially Appointed Assistant Professor |
+|Status | Specially Appointed Assistant Professor, [ILR Fellow](https://sendow-astron.jp/) |
 |Affiliation | [Theoretical Astrophysics Group (OUTAP)](https://astro-osaka.jp), <br> [Department of Earth and Space Science](https://www.ess.sci.osaka-u.ac.jp/en), <br>[Graduate School of Science](https://www.sci.osaka-u.ac.jp/en), <br> [The University of Osaka](https://www.osaka-u.ac.jp/en) |
 |Email | yuri.oku.astro[at]gmail.com <br> oku[at]astro-osaka.jp |
 |Address| 1-1 Machikaneyama, Toyonaka, Osaka, 560-0043, Japan |
