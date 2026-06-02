@@ -5,8 +5,8 @@ title: "Top"
 ## NEWS
 - **2026/06/08-12** Visiting Max Planck Institute for Astrophysics
 - **2026/06/01-05** Visiting Universidad Autónoma de Madrid
-- **2026/05/25-29** Joining AGORA in Europe, Lund University
-- **2026/05/18-22** Visiting Taiwan National University
+- **2026/05/25-29** Joining AGORA in Europe workshop at Lund University
+- **2026/05/18-22** Visiting National Taiwan University
 - **2026/04/06-10** LOC, [CAMELS+BP 2026](https://sites.google.com/view/camels-bp-2026/home)
 - **2026/04/01** Talk at the Keihan Astrophysics Meeting 2026 spring
 - **2026/03/16** Joined the Theoretical Astrophysics Group at the University of Osaka as a specially appointed assistant professor (ILR fellow).

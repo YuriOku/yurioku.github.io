@@ -13,7 +13,12 @@ title: "Presentations"
 
 {{< rawhtml >}}
 <ol reversed=reversed">
+ <li>"AGORA Milky Way zoom run with accelerated GAMER (+ CROCODILE-DWARF)", Oku, Y., Cen, R., Tomaru, K., Toyouchi, D., Nagamine, K., <a href="https://www.eventleaf.com/e/GalaxiesAGORA_Europe2026#ss">1st Galaxy Formation and AGORA workshop in Europe</a>, Gamla Biskopshuset, Lund University, Sweden, 2026/05/25-29 (oral)
+ </li>
+
  <li>"IGM Metal Enrichment in CROCODILE" Oku, Y., Nagamine, K., <a href="https://www.simonsfoundation.org/event/cosmology-and-galaxy-astrophysics-with-simulations-and-machine-learning-2024/">Cosmology and galaxy astrophysics with simulations and machine learning 2024</a>, Flatiron Institute, CCA, 2024/12/09-12 (oral)
+ </li>
+
  <li>"IGM Metal Enrichment in CROCODILE Simulation", Oku, Y., <a href="https://ngfagora.github.io/">AGORA in Asia + 5th Numerical Galaxy Formation Meeting in Korea</a>, Seoul National University (attending remotely), 2024/05/07 (oral)
 </li>
  <li>"Osaka Feedback Model II: Modeling Supernova Feedback Based on High-Resolution Simulations", Oku, Y., Tomida,K., Nagamine, K., Shimizu, I., Cen, R., <a href="https://hipacc.ucsc.edu/GalaxyWorkshop2022.html">2022 Santa Cruz Galaxy Workshop</a>, UC Santa Cruz, 2022/08/19 (oral)
@@ -106,6 +111,8 @@ title: "Presentations"
 
 {{< rawhtml >}}
 <ol reversed=reversed">
+  <li>May 18, 2026, Academia Sinica, Lunch Talk, "Cosmological Galaxy Formation Simulation with GAMER"
+  </li>
   <li>Nov 29, 2023, Scuola Normale Superiore, Talk at Cosmology Group, "IGM metal enrichment by Supernova and AGN Feedback"
   </li>
   <li>Nov 21, 2023, University of Milano Bicocca, Astrocoffe, "Supernova and AGN Feedback in Galaxies and IGM"
