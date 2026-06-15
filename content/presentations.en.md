@@ -111,13 +111,12 @@ title: "Presentations"
 
 {{< rawhtml >}}
 <ol reversed=reversed">
-  <li>May 18, 2026, Academia Sinica, Lunch Talk, "Cosmological Galaxy Formation Simulation with GAMER"
-  </li>
-  <li>Nov 29, 2023, Scuola Normale Superiore, Talk at Cosmology Group, "IGM metal enrichment by Supernova and AGN Feedback"
-  </li>
-  <li>Nov 21, 2023, University of Milano Bicocca, Astrocoffe, "Supernova and AGN Feedback in Galaxies and IGM"
-  </li>
-  <li>Mar 24, 2023, Flatiron Institute, CCA Galaxy Formation group meeting, "Osaka Feedback Model II: Modeling Supernova Feedback Based on High-Resolution Simulations"
-  </li>
+  <li>June 12, 2026, European Southern Observatory, CGM meeting, "Cosmological Simulation CROCODILE"</li>
+  <li>June 11, 2026, Max Planck Institute for Astrophysics, Numerical Journal Club, "Galaxy Formation Simulation with GPU-accelerated AMR Code GAMER"</li>
+  <li>June 3, 2026, Autonomous University of Madrid, DeCAF (DFT+CIAFF) seminar, "CROCODILE-2 for The300 project"</li>
+  <li>May 18, 2026, Academia Sinica, Lunch Talk, "Cosmological Galaxy Formation Simulation with GAMER"</li>
+  <li>Nov 29, 2023, Scuola Normale Superiore, Talk at Cosmology Group, "IGM metal enrichment by Supernova and AGN Feedback"</li>
+  <li>Nov 21, 2023, University of Milano Bicocca, Astrocoffe, "Supernova and AGN Feedback in Galaxies and IGM"</li>
+  <li>Mar 24, 2023, Flatiron Institute, CCA Galaxy Formation group meeting, "Osaka Feedback Model II: Modeling Supernova Feedback Based on High-Resolution Simulations"</li>
 </ol>
 {{< /rawhtml >}}
