@@ -3,6 +3,7 @@ title: "Top"
 ---
 
 ## NEWS
+- **2026/09/14-17** Invited talk at [Galaxy-IGM workshop 2026](https://sites.google.com/view/galaxy-igm2026/home)
 - **2026/06/08-12** Visiting Max Planck Institute for Astrophysics
 - **2026/06/01-05** Visiting Universidad Autónoma de Madrid
 - **2026/05/25-29** Joining AGORA in Europe workshop at Lund University
