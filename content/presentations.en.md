@@ -36,6 +36,7 @@ title: "Presentations"
 
 {{< rawhtml >}}
 <ol reversed=reversed">
+  <li>"AGN feedback in cosmological simulations", Oku, Y., <a href="https://sites.google.com/view/galaxy-igm2026/home">Galaxy-IGM workshop 2026</a>, Sun Valley Nasu, Japan, 2026/09/14-17 (invited)
   <li>"Updating CROCODILE model + Cosmological Simulation with GAMER: Recombination Clumping Factor", Oku, Y., <a href="https://sites.google.com/view/camels-bp-2026/home">CAMELS + Baryon Pasting Meeting 2026</a>, Nakanoshima Center, the University of Osaka, Japan, 2026/04/06-10 (oral)
   </li>
   <li>"some recent topics on cosmological simulations of galaxy formation", Oku, Y., <a href="https://www-tap.scphys.kyoto-u.ac.jp/~hosokawa/KH26S.html">Keihan Astrophysics Meeting 2026 spring</a>, Nakanoshima Center, the University of Osaka, Japan, 2026/04/01 (oral)
